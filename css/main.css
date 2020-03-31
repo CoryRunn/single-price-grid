@@ -1,0 +1,109 @@
+/****General styles****/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-size: 16px;
+    background-color: hsl(204, 43%, 93%);
+    font-family: 'Karla', sans-serif;
+}
+
+h1 {
+    font-size: 1.25em;
+    color: hsl(179, 62%, 43%);
+}
+
+h2, p , li {
+    color:  hsl(204, 43%, 93%);
+}
+
+h2 {
+    font-size: 1.125em;
+    font-weight: 400;
+}
+
+p {
+    line-height: 1.8em;
+}
+
+.price { /*$Pricetag*/
+    color:hsl(179, 62%, 80%)
+}
+
+span {
+    font-size: 2em;
+    color: white;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+}
+
+h3, a {
+    color: hsl(71, 73%, 54%);
+    font-size: 1em;
+}
+
+
+
+/*Section styles*/
+
+.wrapper {    /**Inner box**/
+    display: grid;
+    justify-content: center;
+    text-align: left;
+    margin: 60px 30px;
+}
+
+.thirds { /**Three sections**/
+    padding: 20px;
+}
+
+.join {
+    background-color: white;
+    border-radius: 7px 7px 0 0;
+}
+
+.join p {
+    color: hsl(204, 30%, 80%);
+}
+
+.subscribe {
+    background-color: hsl(179, 62%, 43%);
+}
+
+.btn {
+    display: inline-block;
+    background-color: hsl(71, 73%, 54%);
+    color: white;
+    padding: 15px 109px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    margin: 10px 0;
+}
+
+.btn:hover, .btn:focus {
+    background-color: black;
+    color: hsl(71, 73%, 54%);
+}
+
+.why {
+    background-color: hsl(179, 80%, 43%);
+    border-radius: 0 0 7px 7px;
+}
+
+.features {
+    display: inline;
+}
+
+li {
+    list-style-type: none;
+    text-align: left;
+    color: hsl(179, 62%, 80%);
+    line-height: 1.5em;
+}
+
+
